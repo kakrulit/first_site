@@ -1,0 +1,112 @@
+main{
+    width: 1000px;
+    padding: 25px;
+    height: 525px;
+    margin: 10px  auto;
+}
+
+footer{
+    width: 1000px;
+    padding: 25px;
+    margin: 10px  auto;
+}
+
+nav{
+    width: 100px;
+    padding: 25px;
+    margin: 10px  auto;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #dcdcdc;
+}
+
+header{
+    width: 1000px;
+    padding: 25px;
+    margin: 10px  auto;
+}
+
+.logout {
+    color: #b7625c;
+}
+
+.imsa{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 58px;
+    height: 58px;
+}
+
+.logo{
+    text-align: center;
+    padding: -120px;
+    margin-left: 600px;
+    height: 100px;
+    width: 200px;
+    position:absolute;
+}
+
+.ends{
+    text-align: center;
+}
+
+p{
+    font: #333 12px Tahoma; 
+}
+
+.nava{
+    width: 450px;
+}
+
+.txtx{
+    float: right;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.block2, .block-left3, .block-left4{
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+}
+
+.block-left3, .block-left4{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100px;
+    width: 100px;
+}
+
+.block1{
+    width: 300px;
+    position: absolute;
+}
+
+.block1, .block2{
+    height: 200px;
+}
+
+.block-left3{
+    z-index: 1;
+    left: 50px;
+    top: 50px;
+}
+
+.block2{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 100px;
+}
